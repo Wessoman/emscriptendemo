@@ -11,7 +11,7 @@ var app = express();
 //app.use(express.urlencoded({ extended: false }));
 //app.use(express.json());
 //app.use(express.static("public"));
-app.use(express.static("emscriptendemo"));
+app.use(express.static("webenvironment"));
 app.listen(3003);
 
 // Handlebars
